@@ -6,6 +6,7 @@
       <mapping pattern="trie/src/main/java/de/comroid/common/trie/root" type="PLAIN_TEXT" />
       <mapping pattern="de/abc" type="PLAIN_TEXT" />
       <mapping pattern="core/src/main/java/de/comroid/parserract/ab" type="PLAIN_TEXT" />
+      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping ext="regex" type="PLAIN_TEXT" />
       <mapping ext="cred" type="PLAIN_TEXT" />
     </extensionMap>
