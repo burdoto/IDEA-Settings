@@ -220,6 +220,38 @@
           <rule>
             <match>
               <AND>
+                <INITIALIZER_BLOCK>true</INITIALIZER_BLOCK>
+                <STATIC>true</STATIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <METHOD>true</METHOD>
+                <PUBLIC>true</PUBLIC>
+                <STATIC>true</STATIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <METHOD>true</METHOD>
+                <PUBLIC>false</PUBLIC>
+                <STATIC>true</STATIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
                 <FIELD>true</FIELD>
                 <FINAL>true</FINAL>
                 <PUBLIC>true</PUBLIC>
@@ -310,16 +342,6 @@
         <section>
           <rule>
             <match>
-              <AND>
-                <INITIALIZER_BLOCK>true</INITIALIZER_BLOCK>
-                <STATIC>true</STATIC>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
               <INITIALIZER_BLOCK>true</INITIALIZER_BLOCK>
             </match>
           </rule>
@@ -389,28 +411,6 @@
                 <FINAL>true</FINAL>
                 <METHOD>true</METHOD>
                 <PRIVATE>true</PRIVATE>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <METHOD>true</METHOD>
-                <PUBLIC>true</PUBLIC>
-                <STATIC>true</STATIC>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <METHOD>true</METHOD>
-                <PUBLIC>false</PUBLIC>
-                <STATIC>true</STATIC>
               </AND>
             </match>
           </rule>
