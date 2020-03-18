@@ -156,18 +156,6 @@
               <AND>
                 <FIELD>true</FIELD>
                 <FINAL>true</FINAL>
-                <PRIVATE>true</PRIVATE>
-                <STATIC>true</STATIC>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <FIELD>true</FIELD>
-                <FINAL>true</FINAL>
                 <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
                 <STATIC>true</STATIC>
               </AND>
@@ -413,6 +401,18 @@
                 <FINAL>true</FINAL>
                 <METHOD>true</METHOD>
                 <PRIVATE>true</PRIVATE>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
+                <FINAL>true</FINAL>
+                <PRIVATE>true</PRIVATE>
+                <STATIC>true</STATIC>
               </AND>
             </match>
           </rule>
